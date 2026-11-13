@@ -61,4 +61,17 @@ localStorage persistence, and automated unit tests.
 
 ## Live Demo
 
-To be added after GitHub Pages deployment.
+The application is deployed using GitHub Pages.
+
+**Live Website:** https://wycliffe12.github.io/iyf-s12-week-07-wycliffe12/
+
+## Collaboration
+
+### Pull Request I Created
+[Week 7 JavaScript Best Practices Refactor](https://github.com/wycliffe12/iyf-s12-week-07-wycliffe12/pull/1)
+
+### Pull Request I Reviewed
+Pending peer review.
+
+### Peer Reviewer
+briannjuguna882
