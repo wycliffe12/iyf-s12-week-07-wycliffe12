@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shopping Cart</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 30px;
+                background: #f4f4f4;
+            }
+            .container {
+                max-width: 900px;
+                margin: auto;
+            }
+            .products,
+            .cart {
+                background: white;
+                padding: 20px;
+                margin-bottom: 20px;
+                border-radius: 10px;
+            }
+            .product,
+            .cart-item {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 12px;
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            }
+            button {
+                padding: 8px 12px;
+                cursor: pointer;
+            }
+            .total {
+                font-weight: bold;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="container">
+            <h1>My Shopping Cart 🛒</h1>
+            <h2>Cart Items: <span id="cart-count">0</span></h2>
+
+            <section class="products">
+                <h2>Available Products</h2>
+                <div id="product-list"></div>
+            </section>
+
+            <section class="cart">
+                <h2>Your Cart</h2>
+                <div id="cart-items"></div>
+                <p class="total">Total: KSh <span id="cart-total">0</span></p>
+                <button id="clear-cart">Clear Cart</button>
+            </section>
+        </main>
+
+        <script type="module" src="cart.js"></script>
+    </body>
+</html>
