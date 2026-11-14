@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Week 7 Daily Challenges</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 30px;
+                background: #f4f4f4;
+                color: #222;
+            }
+            body.dark {
+                background: #222;
+                color: white;
+            }
+            section {
+                padding: 20px;
+                margin: 20px 0;
+                border: 1px solid #aaa;
+                border-radius: 8px;
+            }
+            input,
+            button {
+                padding: 10px;
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Week 7 Daily Challenges</h1>
+
+        <section>
+            <h2>Day 1: Theme Persistence</h2>
+            <button id="theme-toggle">Toggle Theme</button>
+        </section>
+
+        <section>
+            <h2>Day 2: Recent Searches</h2>
+            <input id="search-input" placeholder="Enter search" />
+            <button id="search-button">Search</button>
+            <ul id="search-history"></ul>
+            <p id="search-result"></p>
+        </section>
+
+        <section>
+            <h2>Day 3: Form Auto-Save</h2>
+            <form id="autosave-form">
+                <input name="name" placeholder="Your name" />
+                <input name="email" type="email" placeholder="Your email" />
+                <textarea name="message" placeholder="Your message"></textarea>
+                <button type="submit">Submit Form</button>
+            </form>
+            <p id="save-status"></p>
+        </section>
+
+        <script type="module" src="challenges.js"></script>
+    </body>
+</html>
